@@ -1,4 +1,4 @@
 import "./style.css";
-import home from "./home.js";
+import background from "./home.js";
 console.log("Hi!");
-home();
+background();

@@ -1,4 +1,11 @@
 import "./style.css";
-import background from "./home.js";
+import home from "./home";
 console.log("Hi!");
-background();
+home();
+const homeBtn = document.querySelector(".homeButton");
+homeBtn.addEventListener("click", () => {
+  if(document.querySelector(".home") !== null){
+    document.querySelector(".home").remove();
+  }
+  home();
+});

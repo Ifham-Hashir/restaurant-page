@@ -32,7 +32,7 @@ export default function()
     li.textContent = item;
     li.style.padding = "10px";
     timeList.appendChild(li);
-});
+  });
   timeList.style.padding = "15px";
   timeList.style.color = "white";
   timeList.style.fontSize = "30px";
